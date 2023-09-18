@@ -1,0 +1,152 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  padding: 1px;
+  margin: 1px;
+  margin-top: 1px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html{
+  background: #f0f0f0;
+}
+body{
+  height: 700px;
+  width: 1100px;
+  margin: auto;
+}
+h2 {
+  color: #4691c8
+}
+
+ul{
+  list-style: none;
+  padding: 1px;
+  margin: 1px;
+}
+form li + li {
+  margin-top: 1px;
+}
+
+h3,h4 {
+  color: #4691c8;
+  float: left;
+}
+
+
+td, th {
+  border: 1px solid rgb(141, 140, 194);
+  padding: 2px 4px;
+}
+
+td {
+  text-align: center;
+}
+
+#salida{
+  height: 50px;
+  width: 200px;
+  background: rgb(241,225,225);
+  border: 2px solid #4691c8;
+  font-size: large;
+  float:left;
+}
+#anadir{
+  height: 50px;
+  width: 200px;
+  background: rgb(241,241,225);
+  border: 2px solid #4691c8;
+  font-size: large;
+  color: #4691c8;
+  float:left;
+}
+#borrar{
+  height: 50px;
+  width: 200px;
+  background: rgb(227,241,225);
+  border: 2px solid #4691c8;
+  font-size: large;
+  color: #4691c8;
+  float:left;
+}
+#guardar{
+  height: 50px;
+  width: 200px;
+  background: rgb(225,226,241);
+  border: 2px solid #4691c8;
+  font-size: large;
+  color: #4691c8;
+  float:left;
+}
+
+#ingreso{
+  height: 280px;
+  width: 430px;
+  background: rgb(241,225,240);
+  border: 2px solid #4691c8;
+  float:left;
+  border-radius: 6px;
+}
+  #nombre{
+      height: 30px;
+      width: 250px;
+      background: rgb(255, 255, 255);
+      border: 2px solid #4691c8;
+      border-radius: 3px;
+  }
+  #cantidad{
+      height: 30px;
+      width: 250px;
+      background: rgb(255, 255, 255);
+      border: 2px solid #4691c8;
+      border-radius: 3px;
+  }
+  #precio{
+      height: 30px;
+      width: 250px;
+      background: rgb(255, 255, 255);
+      border: 2px solid #4691c8;
+      border-radius: 3px;
+  }
+  #iva{
+      height: 30px;
+      width: 250px;
+      background: rgb(255, 255, 255);
+      border: 2px solid #4691c8;
+      border-radius: 3px;
+  }
+  #categoria{
+      height: 30px;
+      width: 250px;
+      background: rgb(255, 255, 255);
+      border: 2px solid #4691c8;
+      border-radius: 3px;
+  }
+  #lugar{
+      height: 30px;
+      width: 250px;
+      background: rgb(255, 255, 255);
+      border: 2px solid #4691c8;
+      border-radius: 3px;
+  }
+#seleccion{
+  height: 120px;
+  width: 640px;
+  background: rgb(241,225,240);
+  border: 2px solid #4691c8;
+  float:left;  
+  border-radius: 3px; 
+  letter-spacing: 0.5px;
+}
+#pre-factura{
+  height: 100px;
+  width: 640px;
+  background: rgb(225, 241, 241);
+  border: 2px solid #4691c8;  
+  float:left;
+  border-radius: 3px;
+  letter-spacing: 0.5px;
+}
+
